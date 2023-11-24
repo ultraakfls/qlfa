@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+/*font + */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  word-break: keep-all;
+}
+
+
+body {
+  -webkit-text-size-adjust: none;
+  background-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+table,
+input,
+button,
+textarea {
+  font-family: sandoll-myeongjoneo1, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #EF7A67;
+  line-height: 1;
+  letter-spacing: -3px;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* for AXISJ */
+/* body, select, input, a, button{line-height:1;} */
+button {
+  cursor: pointer;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+div,
+pre,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+address,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+em,
+address {
+  font-style: normal;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+table {
+  border: 0;
+  width: 100%;
+}
+table th {
+  word-wrap: break-word;
+}
+table td {
+  word-wrap: break-word;
+}
+
+
+img,
+fieldset {
+  border: none;
+}
+img,
+object {
+  vertical-align: top;
+}
+img {
+  max-width: 100%;
+}
+
+hr,
+caption,
+legend {
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.hide {
+  position: absolute;
+  top: -9999px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+
+
+
+a {
+  outline: none;
+  transition: all 0.3s;
+}
+
+a:link {
+  color:#EF7A67;
+  text-decoration: none;
+}
+a:hover {
+  color:#C01C08;
+  text-decoration: none;
+}
+
+a:active {
+  color:#EF7A67;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#EF7A67;
+  text-decoration: none;
+}
+
+
+body, a {
+  cursor : url("../img/common/cursor.png") 40 0 , 
+          url("../img/common/cursor.svg") 40 0 ,
+          auto;
+}
+
+.talisman:hover {
+  cursor : url("../img/common/cursor_on.png") 40 0 , 
+          url("../img/common/cursor_on.svg") 40 0 ,
+          auto;
+}

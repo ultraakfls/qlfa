@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+.scroll {
+    height: 100vh;
+    text-align: center;
+    overflow-y: auto;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.sub_img_01 {margin: 150px auto 0;width: 430px;}
+.sub_img_02 {margin: 0 auto;}
+
+.sub_wrap {
+    line-height: 1.2;
+    padding-bottom: 450px;
+}
+.sub_wrap h2 {
+    position: sticky;
+    top: 60px;
+    z-index: 100;
+    display: inline-block;
+    /* margin-bottom: 217px; */
+}
+.sub_wrap h2.sub_title {
+    margin-bottom: 200px;
+}
+.sub_wrap h2 a {
+    display: block;
+    color: #C01C08;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 1;
+}
+.sub_wrap h2::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #C01C08;
+}
+
+.sub_wrap h3 {
+    color: #C01C08;
+    font-size: var(--sub-font-size);
+    margin-bottom: 352px;
+    font-weight: 600;
+}
+
+.sub_wrap h3 span {
+    position: relative;
+    display: inline-block;
+}
+
+.sub_wrap h3 span::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #C01C08;
+}
+
+
+
+.sub_wrap ol li p {
+    color: #FFC531;
+    font-size: var(--sub-font-size);
+    line-height: 1.2;
+    margin: 1% 0;
+}
+
+.sub_wrap ol li strong {
+    color: #000;
+    font-size: var(--sub-font-size);
+}
+
+.sub_wrap ol li > .title + p {
+    padding-bottom: 120px;
+}
+
+.title {
+    width: 200px;
+    height: 108px;
+    position: relative;
+    margin: 200px auto 0;
+}
+
+.title strong {
+    position: absolute;
+    width: 200px;
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tm_wrap {
+    position: relative;
+}
+.tm_wrap dl {
+    color: #FFC531;
+    font-size: 40px;
+    padding: 70px 0 220px 0;
+}
+.tm_wrap:last-child dl {
+    padding-bottom: 0;
+}
+.tm_wrap dl dt + dd {
+    color: #C01C08;
+    text-decoration: underline;
+    font-size: 40px;
+
+}
+
+.icon-container {
+    width: 80%;
+    height: 100vh;
+}
+.sticker {
+    max-width: 100%;
+    position: absolute;
+    z-index: 100;
+    cursor: move;
+}
+
+
+.talisman {margin: 0 auto;transition:background 0.3s;}
+.talisman_02_01 { width: 724px;height: 377px;background:url("../img/talisman/detail-2/tm_02_01.jpg") no-repeat;background-size: contain;} 
+.talisman_02_02 { width: 370px;height: 511px;background:url("../img/talisman/detail-2/tm_02_02.jpg") no-repeat;background-size: contain;}
+.talisman_02_03 { width: 370px;height: 485px;background:url("../img/talisman/detail-2/tm_02_03.jpg") no-repeat;background-size: contain;}
+.talisman_02_04 { width: 370px;height: 560px;background:url("../img/talisman/detail-2/tm_02_04.jpg") no-repeat;background-size: contain;}
+.talisman_02_05 { width: 370px;height: 525px;background:url("../img/talisman/detail-2/tm_02_05.jpg") no-repeat;background-size: contain;}
+
+.talisman_03_01 { width: 370px;height: 868px;background:url("../img/talisman/detail-3/tm_03_01.jpg") no-repeat;background-size: contain;} 
+.talisman_03_02 { width: 370px;height: 500px;background:url("../img/talisman/detail-3/tm_03_02.jpg") no-repeat;background-size: contain;}
+.talisman_03_03 { width: 370px;height: 787px;background:url("../img/talisman/detail-3/tm_03_03.jpg") no-repeat;background-size: contain;}
+.talisman_03_04 { width: 370px;height: 896px;background:url("../img/talisman/detail-3/tm_03_04.jpg") no-repeat;background-size: contain;}
+.talisman_03_05 { width: 370px;height: 322px;background:url("../img/talisman/detail-3/tm_03_05.jpg") no-repeat;background-size: contain;}
+
+.talisman_04_01 { width: 370px;height: 680px;background:url("../img/talisman/detail-4/tm_04_01.jpg") no-repeat;background-size: contain;} 
+.talisman_04_02 { width: 370px;height: 669px;background:url("../img/talisman/detail-4/tm_04_02.jpg") no-repeat;background-size: contain;}
+.talisman_04_03 { width: 370px;height: 530px;background:url("../img/talisman/detail-4/tm_04_03.jpg") no-repeat;background-size: contain;}
+.talisman_04_04 { width: 370px;height: 765px;background:url("../img/talisman/detail-4/tm_04_04.jpg") no-repeat;background-size: contain;}
+
+.talisman_05_01 { width: 370px;height: 710px;background:url("../img/talisman/detail-5/tm_05_01.jpg") no-repeat;background-size: contain;} 
+.talisman_05_02 { width: 370px;height: 669px;background:url("../img/talisman/detail-5/tm_05_02.jpg") no-repeat;background-size: contain;}
+.talisman_05_03 { width: 370px;height: 530px;background:url("../img/talisman/detail-5/tm_05_03.jpg") no-repeat;background-size: contain;}
+.talisman_05_04 { width: 370px;height: 990px;background:url("../img/talisman/detail-5/tm_05_04.jpg") no-repeat;background-size: contain;}
+
+.talisman_06_01 { width: 370px;height: 473px;background:url("../img/talisman/detail-6/tm_06_01.jpg") no-repeat;background-size: contain;} 
+.talisman_06_02 { width: 370px;height: 736px;background:url("../img/talisman/detail-6/tm_06_02.jpg") no-repeat;background-size: contain;}
+.talisman_06_03 { width: 370px;height: 736px;background:url("../img/talisman/detail-6/tm_06_03.jpg") no-repeat;background-size: contain;}
+.talisman_06_04 { width: 370px;height: 678px;background:url("../img/talisman/detail-6/tm_06_04.jpg") no-repeat;background-size: contain;}
+.talisman_06_05 { width: 370px;height: 838px;background:url("../img/talisman/detail-6/tm_06_05.jpg") no-repeat;background-size: contain;}
+
+.talisman_02_01:hover { width: 724px;height: 377px;background:url("../img/talisman/detail-2/tm_02_01_on.jpg") no-repeat;background-size: contain;} 
+.talisman_02_02:hover { width: 370px;height: 511px;background:url("../img/talisman/detail-2/tm_02_02_on.jpg") no-repeat;background-size: contain;}
+.talisman_02_03:hover { width: 370px;height: 485px;background:url("../img/talisman/detail-2/tm_02_03_on.jpg") no-repeat;background-size: contain;}
+.talisman_02_04:hover { width: 370px;height: 560px;background:url("../img/talisman/detail-2/tm_02_04_on.jpg") no-repeat;background-size: contain;}
+.talisman_02_05:hover { width: 370px;height: 525px;background:url("../img/talisman/detail-2/tm_02_05_on.jpg") no-repeat;background-size: contain;}
+
+.talisman_03_01:hover { width: 370px;height: 868px;background:url("../img/talisman/detail-3/tm_03_01_on.jpg") no-repeat;background-size: contain;} 
+.talisman_03_02:hover { width: 370px;height: 500px;background:url("../img/talisman/detail-3/tm_03_02_on.jpg") no-repeat;background-size: contain;}
+.talisman_03_03:hover { width: 370px;height: 787px;background:url("../img/talisman/detail-3/tm_03_03_on.jpg") no-repeat;background-size: contain;}
+.talisman_03_04:hover { width: 370px;height: 896px;background:url("../img/talisman/detail-3/tm_03_04_on.jpg") no-repeat;background-size: contain;}
+.talisman_03_05:hover { width: 370px;height: 322px;background:url("../img/talisman/detail-3/tm_03_05_on.jpg") no-repeat;background-size: contain;}
+
+.talisman_04_01:hover { width: 370px;height: 680px;background:url("../img/talisman/detail-4/tm_04_01_on.jpg") no-repeat;background-size: contain;} 
+.talisman_04_02:hover { width: 370px;height: 669px;background:url("../img/talisman/detail-4/tm_04_02_on.jpg") no-repeat;background-size: contain;}
+.talisman_04_03:hover { width: 370px;height: 530px;background:url("../img/talisman/detail-4/tm_04_03_on.jpg") no-repeat;background-size: contain;}
+.talisman_04_04:hover { width: 370px;height: 765px;background:url("../img/talisman/detail-4/tm_04_04_on.jpg") no-repeat;background-size: contain;}
+
+.talisman_05_01:hover { width: 370px;height: 710px;background:url("../img/talisman/detail-5/tm_05_01_on.jpg") no-repeat;background-size: contain;} 
+.talisman_05_02:hover { width: 370px;height: 669px;background:url("../img/talisman/detail-5/tm_05_02_on.jpg") no-repeat;background-size: contain;}
+.talisman_05_03:hover { width: 370px;height: 530px;background:url("../img/talisman/detail-5/tm_05_03_on.jpg") no-repeat;background-size: contain;}
+.talisman_05_04:hover { width: 370px;height: 990px;background:url("../img/talisman/detail-5/tm_05_04_on.jpg") no-repeat;background-size: contain;}
+
+.talisman_06_01:hover { width: 370px;height: 473px;background:url("../img/talisman/detail-6/tm_06_01_on.jpg") no-repeat;background-size: contain;} 
+.talisman_06_02:hover { width: 370px;height: 736px;background:url("../img/talisman/detail-6/tm_06_02_on.jpg") no-repeat;background-size: contain;}
+.talisman_06_03:hover { width: 370px;height: 736px;background:url("../img/talisman/detail-6/tm_06_03_on.jpg") no-repeat;background-size: contain;}
+.talisman_06_04:hover { width: 370px;height: 678px;background:url("../img/talisman/detail-6/tm_06_04_on.jpg") no-repeat;background-size: contain;}
+.talisman_06_05:hover { width: 370px;height: 838px;background:url("../img/talisman/detail-6/tm_06_05_on.jpg") no-repeat;background-size: contain;}
+
+
+
+
+.icon_haert_list {padding: 220px 0 0;}
+
+.heart_01 {position: relative;background:url("../img/common/heart_set_01.png") no-repeat 0 0;background-size: 100%;}
+.heart_02 {position: relative;background:url("../img/common/heart_set_02.png") no-repeat 0 270px;background-size: 100%;}
+.heart_03 {position: relative;background:url("../img/common/heart_set_03.png") no-repeat;background-size: 100%;}
+.heart_04 {position: relative;background:url("../img/common/heart_set_04.png") no-repeat;background-size: 100%;}
+.heart_05 {position: relative;background:url("../img/common/heart_set_05.png") no-repeat;background-size: 100%;}
+
+.box.ui-droppable-hover {
+    border: 4px dashed #f00;
+    box-sizing: border-box;
+}
